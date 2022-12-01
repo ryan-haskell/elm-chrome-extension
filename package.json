@@ -1,0 +1,19 @@
+{
+  "name": "elm-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && npm run dev",
+    "dev": "chokidar src/ -c 'npm run build:dev' --initial",
+    "build:dev": "elm make src/Main.elm --debug --output=dist/elm.compiled.js",
+    "build:prod": "elm make src/Main.elm --optimize --output=dist/elm.compiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "3.0.0",
+    "elm": "0.19.1-5"
+  }
+}
