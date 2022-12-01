@@ -1,5 +1,5 @@
 # @ryannhg/elm-chrome-extension
-> A starter project for making [Chrome extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/) using [Elm](https://elm-lang.org)
+> A template for making [Chrome extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/) using [Elm](https://elm-lang.org)
 
 ## Project structure
 
@@ -40,7 +40,7 @@ Here are the steps to get the extension running in your browser
 
     This will install your dependencies, and watch `src/*.elm` to automatically compile your Elm application as you go!
 
-1. Visit [chrome://extensions](chrome://extensions) add click the "Load unpacked" in the top-left corner.
+1. Visit `chrome://extensions` add click the "Load unpacked" in the top-left corner.
 
 1. Select the folder for this project (the one that contains this `README.md` file)!
 
